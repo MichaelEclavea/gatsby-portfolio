@@ -46,14 +46,30 @@
     flex-direction: column;
     justify-content: center;
     color: $white-color;
-    font-size: 3rem;
+    font-size: 5rem;
     width: 5rem;
     height: 5rem;
     margin: $default-font-size $default-font-size;
     transition: all 0.2s ease-in;
 
     &:hover {
-      transform: translateY(-2px);
+      transform: translateY(-8px);
+    }
+  }
+}
+
+.back-to-top {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  display: inline-block;
+
+  &:hover {
+    letter-spacing: 2px;
+    transform: translateY(-2px) scale(1.2);
+    color: rgba(122, 192, 208, 1);
+
+    &.back-to-top i {
+      color: rgba(122, 192, 208, 1);
     }
   }
 }
@@ -64,7 +80,7 @@
   transition: all 0.2s ease-in;
   cursor: pointer;
 
-  &:hover {
-    transform: translateY(-2px);
-  }
+  // &:hover {
+  //   color: rgba(122, 192, 208, 1);
+  // }
 }

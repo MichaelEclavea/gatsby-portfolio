@@ -38,18 +38,25 @@ a:hover {
   color: $dark-blue-text !important;
 }
 
+.text-color {
+  color: rgba(122,192,208,1);
+
+  &:hover {
+    // transform: translateX(2px);
+    letter-spacing: 2px;
+    color:rgb(20, 163, 176);
+  }
+}
 .text-color-main {
-  background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  // background-image: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%);
+  background: linear-gradient(135deg, rgb(9, 152, 165) 0%, rgba(122,192,208,1) 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 
   // Responsive text purple style
   @include respond(phone) {
-    background-image: none;
-    -webkit-text-fill-color: $secondary-color;
+    background-image: linear-gradient(135deg, rgb(9, 152, 165) 0%, rgba(122,192,208,1) 100%);
+    // -webkit-text-fill-color: $secondary-color;
   }
 
-  &:hover {
-    transform: translateX(2px);
-  }
 }
