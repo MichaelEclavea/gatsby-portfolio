@@ -1,5 +1,6 @@
 {
   "homepage": "https://github.com/michaeleclavea/gatsby-portfolio",
+  "main": "index.js",
   "name": "portfolio",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
