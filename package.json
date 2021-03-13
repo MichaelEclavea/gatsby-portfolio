@@ -1,6 +1,7 @@
 {
   "homepage": "https://github.com/MichaelEclavea/gatsby-portfolio.git",
   "name": "portfolio",
+  "main": "./public/index.html",
   "private": true,
   "description": "A simplified bare-bones starter for Gatsby",
   "version": "0.1.0",
